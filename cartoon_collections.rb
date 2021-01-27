@@ -4,7 +4,7 @@ def roll_call_dwarves(names)
     puts "#{index+1}. #{names}"
 end
 end
-roll_call_dwarves(names)
+
 
 def summon_captain_planet(element)
   element.map { |word| word.capitalize + '!' }

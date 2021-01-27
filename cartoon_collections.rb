@@ -14,7 +14,9 @@ def long_planeteer_calls(hero)
   hero.any? { |character| character.length > 4 }
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(i_want_to_eat_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  stuff_i_cant_eat.find do |allergies_suck|
+    cheeses.include?(allergies_suck)
+  end
 end

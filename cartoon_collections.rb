@@ -15,8 +15,8 @@ def long_planeteer_calls(hero)
 end
 
 def find_the_cheese(i_want_to_eat_cheese)
-  cheese_types = %w["cheddar", "gouda", "camembert"]
-  stuff_i_cant_eat.find do |allergies_suck|
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  i_want_to_eat_cheese.find do |allergies_suck|
     cheeses.include?(allergies_suck)
   end
 end
